@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_string.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bvera <bvera@student.42madrid.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 21:51:05 by bvera             #+#    #+#             */
-/*   Updated: 2024/09/21 22:06:49 by bvera            ###   ########.fr       */
+/*   Created: 2024/10/27 19:20:38 by bvera             #+#    #+#             */
+/*   Updated: 2024/10/27 19:20:41 by bvera            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,8 +80,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	while (*haystack && (len >= needle_len))
 	{
-		if ((*haystack == *needle)
-			&& (ft_strncmp(haystack, needle, needle_len) == 0))
+		if (ft_strncmp(haystack, needle, needle_len) == 0)
 		{
 			return ((char *)haystack);
 		}

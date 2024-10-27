@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_memory.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bvera <bvera@student.42madrid.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 21:51:05 by bvera             #+#    #+#             */
-/*   Updated: 2024/09/21 22:06:49 by bvera            ###   ########.fr       */
+/*   Created: 2024/10/27 19:18:39 by bvera             #+#    #+#             */
+/*   Updated: 2024/10/27 19:18:43 by bvera            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	*ft_memmove(void *dest, const void *src, size_t num_bytes)
 	{
 		while (num_bytes > 0)
 		{
-			*(dest_ptr + num_bytes - 1) = *(src_ptr + num_bytes - 1);
+			*(dest_ptr + (num_bytes - 1)) = *(src_ptr + (num_bytes - 1));
 			num_bytes--;
 		}
 	}

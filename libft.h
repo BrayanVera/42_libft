@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bvera <bvera@student.42madrid.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/21 21:51:05 by bvera             #+#    #+#             */
-/*   Updated: 2024/09/21 22:06:49 by bvera            ###   ########.fr       */
+/*   Created: 2024/10/27 19:21:09 by bvera             #+#    #+#             */
+/*   Updated: 2024/10/27 19:21:12 by bvera            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void		*ft_memcpy(void *dest_area, const void *src_area, size_t num_bytes);
 void		*ft_memmove(void *dest, const void *src, size_t num_bytes);
 void		*ft_memchr(const void *mem_area, int chr, size_t num_bytes);
 
-// ft_memory_managment
+// ft_memory_two
 int			ft_memcmp(const void *ptr1, const void *ptr2, size_t num_bytes);
 
 // ft_string_manipulation
