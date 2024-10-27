@@ -181,7 +181,7 @@ void		*ft_memmove(void *dest, const void *src, size_t num_bytes);
 void		*ft_memchr(const void *mem_area, int chr, size_t num_bytes);
 
 /**
- * ft_memory_managment
+ * ft_memory_two
  * 
  * Compara dos bloques de memoria.
  * 
